@@ -1,6 +1,7 @@
 var money = 1000;
-var oranges = 400;
-var apples = 300;
-var total = oranges + apples;
+var orangesPrice = 400;
+var applesPrice = 300;
+var totalCost = orangesPrice + applesPrice;
+var reTurn = money - totalCost;
 
-console.log(money - total);
+console.log(reTurn);
